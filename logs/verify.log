@@ -1,0 +1,51 @@
+Mon Oct 27 04:16:15 +07 2025
+
+[1] Compiling Java sources...
+✅ Java compile complete.
+
+[2] Computing SHA256 hashes...
+✅ Hashes saved to /data/data/com.termux/files/home/projects/merkletree-verify/logs/file_hashes.txt
+
+[3] Checking for GPG keys...
+gpg: key CDDE23820F940FD6: "thalinda sriprajak (iamcloud) <nurlindaspj@gmail.com>" not changed
+gpg: key 4AF9DC7C3D5AD0CB: "thalinda sriprajak (sing) <Nurlindaspj@gmail.com>" not changed
+gpg: Total number processed: 2
+gpg:              unchanged: 2
+✅ Public keys imported.
+
+[4] Computing Merkle roots from CSV...
+combined-tree.csv	root=47b0b86856ce9a2288e88809e1bb256e7e4b03b2783adef106b941348fa35127	leaves=9999
+tree-level1.csv	root=d59126e3effd207d6748fcc0fb68015bbc2b176606ff358a7564376908fb4ef3	leaves=5000
+tree-level10.csv	root=c6629482fc9ef259f1cd00091271a49b5e68124b47ffa3a66d47a5d5f1d89593	leaves=10
+tree-level11.csv	root=d6ea0ac2e1fa31cdfee1607ec72a3daa7099e88c3a0d50dc6e7488367cb1884c	leaves=5
+tree-level12.csv	root=c925adc380a05cb16e41ceb7fdd8a449a9819fdd7f72095c546a94a0a7841597	leaves=2
+tree-level13.csv	root=c5087c1b8e7eac333f98736af8d56f4920e51ca2f52c134e3f724675beba9d69	leaves=1
+tree-level14.csv	root=8238b7ea569b4d8d58ec84baaa4f01206a5c470bceb19543f1e1488202610c1c	leaves=1
+tree-level2.csv	root=be3c728ebdf9d34c63e1d9970ea66a3eda3b6f90fe82b74f89317ebbe554c2e1	leaves=2500
+tree-level3.csv	root=31ad157de582a05ca1003837319c5e199b05458c7c2853d02cbb641429af6919	leaves=1250
+tree-level4.csv	root=4b7510760a3e6641df164488e0407e3ff25029a6d0c1725cbf12223f34775d7d	leaves=625
+tree-level5.csv	root=08a7a64285c9efc2b197eaf1025a5dffa59c54a4a788164f3fd6bc97d4322a92	leaves=312
+tree-level6.csv	root=6a650e99f302d4991553b12166184d768e1f819f13bca128f036ae212f1b1c20	leaves=156
+tree-level7.csv	root=57d17366db5045d083edc0e40c3db0d75c4b43a0ff5944d52cb1632d2fcc3c23	leaves=78
+tree-level8.csv	root=f6e2b1e8813b42e8ee25adfcc61d7f7ecefe9598919ad6c63b364afb2db81ebb	leaves=39
+tree-level9.csv	root=0587986606d4b4577c96b596f24eec825702e81b82ee04a697f43011538ab41b	leaves=20
+✅ Wrote results to /data/data/com.termux/files/home/projects/merkletree-verify/logs/merkleroots.txt
+✅ Merkle roots saved to /data/data/com.termux/files/home/projects/merkletree-verify/logs/merkleroots.txt
+
+📘 Summary of Merkle roots:
+combined-tree.csv	47b0b86856ce9a2288e88809e1bb256e7e4b03b2783adef106b941348fa35127	9999
+tree-level1.csv	d59126e3effd207d6748fcc0fb68015bbc2b176606ff358a7564376908fb4ef3	5000
+tree-level10.csv	c6629482fc9ef259f1cd00091271a49b5e68124b47ffa3a66d47a5d5f1d89593	10
+tree-level11.csv	d6ea0ac2e1fa31cdfee1607ec72a3daa7099e88c3a0d50dc6e7488367cb1884c	5
+tree-level12.csv	c925adc380a05cb16e41ceb7fdd8a449a9819fdd7f72095c546a94a0a7841597	2
+tree-level13.csv	c5087c1b8e7eac333f98736af8d56f4920e51ca2f52c134e3f724675beba9d69	1
+tree-level14.csv	8238b7ea569b4d8d58ec84baaa4f01206a5c470bceb19543f1e1488202610c1c	1
+tree-level2.csv	be3c728ebdf9d34c63e1d9970ea66a3eda3b6f90fe82b74f89317ebbe554c2e1	2500
+tree-level3.csv	31ad157de582a05ca1003837319c5e199b05458c7c2853d02cbb641429af6919	1250
+tree-level4.csv	4b7510760a3e6641df164488e0407e3ff25029a6d0c1725cbf12223f34775d7d	625
+tree-level5.csv	08a7a64285c9efc2b197eaf1025a5dffa59c54a4a788164f3fd6bc97d4322a92	312
+tree-level6.csv	6a650e99f302d4991553b12166184d768e1f819f13bca128f036ae212f1b1c20	156
+tree-level7.csv	57d17366db5045d083edc0e40c3db0d75c4b43a0ff5944d52cb1632d2fcc3c23	78
+tree-level8.csv	f6e2b1e8813b42e8ee25adfcc61d7f7ecefe9598919ad6c63b364afb2db81ebb	39
+tree-level9.csv	0587986606d4b4577c96b596f24eec825702e81b82ee04a697f43011538ab41b	20
+

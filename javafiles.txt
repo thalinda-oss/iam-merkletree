@@ -1,0 +1,4 @@
+/data/data/com.termux/files/home/projects/merkletree-verify/src/MerkleTreeBuild.java
+/data/data/com.termux/files/home/projects/merkletree-verify/src/MerkleTreeFromCSV.java
+/data/data/com.termux/files/home/projects/merkletree-verify/src/MerkleTreeVerify.java
+/data/data/com.termux/files/home/projects/merkletree-verify/src/MerkleTreeLoop.java
